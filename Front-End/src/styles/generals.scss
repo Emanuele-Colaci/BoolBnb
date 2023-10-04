@@ -1,0 +1,33 @@
+@import '/node_modules/bootstrap/scss/bootstrap.scss';
+@import '/node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+
+.min-height {
+    min-height: 700px;
+}
+
+.primary-colour {
+    background-color: #d77d85;
+}
+
+.primary-colour:hover {
+    background-color: #d77981;
+}
+
+.scrollbar {
+    overflow-y: scroll;
+    /* Abilita la scrollbar verticale */
+    max-height: 150px;
+    /* Imposta l'altezza massima per il container prima che la scrollbar appaia */
+}
+
+.main-background-color {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.main-box-shadow {
+    box-shadow: 3px 3px 5px rgba(215, 125, 133, 0.75);
+}
+
+.form-box-shadow {
+    box-shadow: 2px 2px 5px rgba(215, 125, 133, 0.75);
+}
